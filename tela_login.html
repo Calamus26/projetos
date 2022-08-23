@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            color: #fff;
+            background: #a2ccff;
+            font-family: Verdana, Geneva, Tahoma, sans-serif ;
+            text-align: center;
+        }
+        .box {
+            max-width: 400px;
+            margin: 30px auto 5px auto;
+            padding: 30px;
+            background: rgb(82, 107, 177);
+        }
+        form {
+            text-align: left;
+        }
+        input {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            display: block;
+            width: 100%;
+            padding: 10px 10px;
+        }
+        .btn {
+            border-radius: 5px;
+            background: rgb(96, 251, 106);
+            border: none;
+            width: 100%;
+            height: 40px;
+            margin-top: 25px;
+            font-size: 100%;
+        }
+        .btn:hover {
+            background: rgb(118, 255, 127)
+        }
+        .entrada {
+            margin-top: 10px; 
+        }
+        a {
+            text-decoration: none;
+            color: rgba(22, 117, 13);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h3>Bem-Vindo de volta!</h3>
+        <form action="#">
+            <div class="entrada">
+                <label for="Email">Email</label>
+                <input type="text" id="email" name="email">
+            </div>
+            <div class="entrada">
+                <label for="Senha">Senha</label>
+                <input type="text" id="password" name="password">
+            </div>
+        </form>
+        <button class="btn">Login</button>
+    </div>
+    <footer>
+        <p>Ainda não possui conta? <a href="#">Criar conta agora</a></p>
+    </footer>
+</body>
+</html>
